@@ -1,0 +1,22 @@
+{
+  "general": {
+    "HighightElement": true,
+    "AutoLog": true
+  },
+  "project": {
+    "url": "",
+    "os": "Android",
+    "APKFilePath": "/Users/god/Desktop/Testing/FakeCallerID_v3.apk",
+    "APKFilePath1": "/Users/god/Desktop/Testing/Prank_Caller_App_v2-3-3.apk",
+    "deviceName" : ["emulator-5554"],
+    "deviceType":"phone",
+    "platformVersion" : "6.0",
+    "saucelab": false
+  },
+  "saucelab": {
+    "userName": "",
+    "accessKey": "",
+    "platform": "linux",
+    "version": "48.0"
+  }
+}

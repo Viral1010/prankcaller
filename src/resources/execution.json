@@ -1,0 +1,24 @@
+{
+  "run": {
+    "by": "class",
+    "browsers": [
+      "Android"
+    ]
+  },
+  "class": [
+    "test.tests.launchApp.Tests"
+  ],
+  "methods": {
+    "tests.EventModule.Tests": [
+    ]
+  },
+  "groups": {
+    "run": [
+      "smoke"
+    ],
+    "smoke": {
+    },
+    "Complete": {
+    }
+  }
+}

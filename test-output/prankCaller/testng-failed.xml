@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [prankCaller]" parallel="methods">
+  <parameter name="selenium.browser" value="Android"/>
+  <parameter name="deviceName" value="emulator-5554"/>
+  <test thread-count="1" name="tests(failed)" parallel="methods">
+    <classes>
+      <class name="test.tests.prankCaller.Tests">
+        <methods>
+          <include name="TC_01"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="close"/>
+          <include name="browserConfig"/>
+        </methods>
+      </class> <!-- test.tests.prankCaller.Tests -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [prankCaller] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [test]" parallel="methods">
+  <parameter name="selenium.browser" value="Android"/>
+  <parameter name="deviceName" value="emulator-5554"/>
+  <test thread-count="1" name="Command line test b1dea93e-229a-4dfa-9479-0f54f8e4a2d3(failed)" parallel="methods">
+    <classes>
+      <class name="test.tests.launchApp.Tests">
+        <methods>
+          <include name="prankcaller"/>
+          <include name="launchApp"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="close"/>
+          <include name="browserConfig"/>
+        </methods>
+      </class> <!-- test.tests.launchApp.Tests -->
+    </classes>
+  </test> <!-- Command line test b1dea93e-229a-4dfa-9479-0f54f8e4a2d3(failed) -->
+</suite> <!-- Failed suite [test] -->
